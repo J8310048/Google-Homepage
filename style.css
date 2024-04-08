@@ -1,0 +1,109 @@
+/*this resets the styling so there are no border issues  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, arial, sans-serif;
+  }
+  
+  /*this styling is for the about, Gmail, store, and images links at the top*/
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  /*This removes the hyperlink from the navigation links  */
+  nav ul a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /*hover effect for the nav bar  */
+  nav ul a:hover {
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  
+  /*This takes the bullet points off all the links*/
+  li {
+    list-style: none;
+  }
+  
+  /* this styling is for the Google Logo, search bar, and buttons */
+  main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 250px 250px;
+    position: fixed;
+
+  }
+  
+  /*google search bar  */
+  #search-bar {
+    margin-bottom: 20px;
+    padding: 10px 200px;
+    border-radius: 50px;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  /*google search button  */
+  #search-button {
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    margin-left: 150px;
+  }
+  
+  /*hover effect for the search button  */
+  #search-button:hover {
+    background-color: lightgray;
+  }
+  
+  /*feeling lucky button  */
+  #lucky-button {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-left: 10px;
+  }
+  
+  /*hover effect for lucky button  */
+  #lucky-button:hover {
+    background-color: lightgray;
+  }
+  
+  /*google logo  */
+  main section img {
+    min-height: 100px;
+    min-width: 100px;
+    padding-bottom: 10px;
+  }
+  
+  /*This is styling for all the footer links  */
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  /*this removes the hyperlink style from the footer links */
+  footer ul a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /*hover effect for footer links  */
+  footer ul a:hover {
+    color: white;
+  }
